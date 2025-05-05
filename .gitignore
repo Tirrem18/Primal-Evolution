@@ -1,0 +1,34 @@
+#CMAKE BUILD SYSTEM
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+#NINJA BUILD SYSTEM
+build.ninja
+.ninja_deps
+.ninja_log
+
+#EXECUTABLES & OBJECT FILES
+*.o
+*.obj
+*.exe
+*.out
+
+#LOGS AND TEMPORARY FILES
+*.log
+*.tmp
+
+#IDE CONFIGS
+.vscode/
+*.code-workspace
+.idea/
+
+#SYSTEM FILES
+.DS_Store
+Thumbs.db
+
+#ENVIRONMENT VARIABLES
+.env
+.env.*
